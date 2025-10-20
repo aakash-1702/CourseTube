@@ -1,0 +1,92 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+.cache/
+.next/
+out/
+coverage/
+temp/
+tmp/
+
+# Logs
+logs/
+*.log
+.log.
+debug.log
+lerna-debug.log
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.suo
+.ntvs
+*.njsproj
+*.sln
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional caches
+.cache/
+.parcel-cache/
+.next/
+eslintcache
+.stylelintcache
+
+# Tailwind
+*.css.map
+
+# React
+*.env.local
+*.env.development.local
+*.env.production.local
+
+# Testing
+coverage/
+jest-html-reporters-*.html
+
+# Backend specific
+uploads/
+public/uploads/
+storage/
+*.pid
+*.seed
+*.pid.lock
+
+# Misc
+*.tgz
+*.zip
+
+# Local database or data dumps
+dump.rdb
+*.sqlite
+*.db
+*.sql
+*.bak
+
+# PM2 process logs
+pids/
+pids.log
+
+# Temporary files
+*.tmp
+*.temp
