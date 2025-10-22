@@ -10,6 +10,7 @@
 
 
 import mongoose, { Schema } from "mongoose";
+import mongooseAggregatePaginate from "mongoose-aggregate-paginate-v2";
 
 
 const videoSchema = new Schema(
@@ -44,6 +45,8 @@ const videoSchema = new Schema(
 );
 
 const Videos = mongoose.model("Videos", videoSchema, "videos");
+
+videoSchema.plugin(mongooseAggregatePaginate);
 // here Users is the model , userSchema is the schema and users is nothing but the collection
 
 
